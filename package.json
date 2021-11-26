@@ -1,0 +1,23 @@
+{
+  "name": "twbot",
+  "version": "1.0.0",
+  "description": "A Discord bot for TensorWorks",
+  "main": "index.js",
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Luke Bermingham",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "discord": "^0.8.2",
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "luxon": "^1.26.0"
+  }
+}
